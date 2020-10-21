@@ -14,7 +14,13 @@
 }
 
 body{
-    color: var(--textColor);
+    color: var(--black);
     background: var(--white);
     font-family: 'Nunito', sans-serif;
 }
+
+
+@import 'navbar';
+@import 'hero';
+@import 'products';
+@import 'cart';

@@ -1,0 +1,36 @@
+.hero{
+    min-height: calc(100vh - 60px);
+    background: url("../images/hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-container{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.965);
+    display: inline-block;
+    padding: 4rem;
+}
+.hero-title{
+    color: rgb(42, 40, 38);
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+    margin-bottom: 3rem;
+}
+.hero-btn{
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--black);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    cursor: pointer;
+    font-family: inherit;
+}
+.hero-btn:hover{
+    background:transparent;
+    color: var(--primaryColor);
+}
