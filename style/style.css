@@ -13,4 +13,10 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  color: var(--textColor);
+  background: var(--white);
+  font-family: 'Nunito', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */

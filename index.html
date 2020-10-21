@@ -3,20 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tasteful</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>hello there</h1>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <h1>Tasteful</h1>
+            <div class="cart-button">
+                <span class="navbar-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">
+                    0
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <!-- !Make a carousel for the images when you have time! -->
+    <header class="hero">
+        <div class="hero-container">
+                <h1 class="hero-title"></h1>
+        </div>
     </header>
+
+    <!-- Products -->
+    <section class="products">
+        <div class="products-title">
+            <h2>Products</h2>
+        </div>
+        <div class="products-container">
+            <!-- this is where the product content goes -->
+        </div>
+    </section>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- this is where the cart content goes -->
+            </div>
+            <div class="cart-footer">
+                <h3>Total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart hero-btn">Clear Cart</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Contentful -->
     <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
